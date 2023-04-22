@@ -1,4 +1,4 @@
-import "./intro.css";
+import "./intro.scss";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
 

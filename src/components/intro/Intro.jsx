@@ -10,7 +10,7 @@ export default function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed:60,
-      strings: ["Developer", "Designer", "Content Creator"],
+      strings: ["Python", "Frontend", "Java" ],
     });
   }, []);
 
@@ -18,18 +18,23 @@ export default function Intro() {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/man.png" alt="" />
+          <img src="assets/picture.jpg" alt="" />
         </div>
       </div>
       <div className="right">
         <div className="wrapper">
           <h2>Hi There, I'm</h2>
-          <h1>Safak Kocaoglu</h1>
+          <h1>Faith Abiola</h1>
           <h3>
-            Freelance <span ref={textRef}></span>
+            <span ref={textRef}></span> Developer <br/>
+          <a href="https://docs.google.com/document/d/1x6Etl7KqdimzWK3D7v7E-dBC924F5HNvlr1FpbEY3ik/edit?usp=sharing" target="_blank" class="resume" rel="noreferrer">
+            <span class="btn-text">
+                View Resume
+            </span>
+          </a>
           </h3>
         </div>
-        <a href="#portfolio">
+        <a href="#portfolio" className="portfolio">
           <img src="assets/down.png" alt="" />
         </a>
       </div>

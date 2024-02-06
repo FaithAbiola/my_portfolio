@@ -16,7 +16,7 @@
     .imgContainer {
       width: 700px;
       height: 700px;
-      background-color: crimson;
+      background-color: rgb(183, 79, 31);
       border-radius: 50%;
       display: flex;
       align-items: flex-end;
@@ -28,7 +28,7 @@
       }
 
       img {
-        height: 90%;
+        height: 100%;
 
         @include mobile{
           height: 50%;
@@ -89,8 +89,11 @@
             }
         }
       }
+      .resume {
+        text-decoration: none;
+      }
     }
-    a {
+    .portfolio {
       position: absolute;
       bottom: 10px;
       left: 40%;
